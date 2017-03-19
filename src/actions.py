@@ -389,7 +389,7 @@ class Actions(object):
 
                         if errorcount > (globaloptions['errors']-1):
                             self.mainWindow.logmessage(u"Automatically canceled because of {} consecutive errors.".format(errorcount))
-                            progress.cancel()
+                            #progress.cancel()
 
 
 
